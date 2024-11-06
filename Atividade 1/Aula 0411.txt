@@ -1,0 +1,19 @@
+Aula 04/11   
+ <!--<body>
+        <header>
+    <h2>Olá, está é uma página sobre mim</h2>
+    <p>Esta é a minha primeira página HTML</p>
+    <img src="pngtree-hug-me-cute-bear-cartoon-for-kids-t-shirt-design-png-image_2267296.jpg" alt="ex img" class="imagem">
+        </header>
+<section>
+    <h3>Atualmente estudo na Escola Técnica Estadual de Portão</h3>
+    <p>Cursando informatica</p>
+    <h3>Fiz meu ensino fundamental no Otília C. Rieth</h3>
+    <h6>Obs: do 1º ao 3º ano estudei na escola Augusto Meyer</h6>
+    <h3>Faço parte da Banda Musical Auxiliadora tocando Saxofone Tenor</h3>
+    <p>Já toco lá a 5 aninhos</p>
+    <h3>Junto com a banda, também faço parte da instituição da Casa Auxiliadora</h3>
+    <p>Da casa eu já participo a 10 anos</p>
+</section>
+</body>
+</html>-->
