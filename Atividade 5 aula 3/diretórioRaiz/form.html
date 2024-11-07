@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="widht=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+   </head>
+   <body>
+    <h1>Formulário de Dados/Contatos</h1>
+    <form actio="resultado.html" method="get">
+        <p>
+            Nome:<input type="text"
+            name="nome" size="25"
+            />
+        </p>
+        <p>
+            Sobrenome:<input type="text"
+            name="sobrenome" size="40"
+            />
+        </p>
+        <p>
+            usuário:<input type="text"
+            name="nome" size="25"
+            />
+        </p>
+        <!--Aparece as bolinhas por conta do password-->
+        senha<input type="password"
+        name="senha" size="25"
+            />
+            <p>
+                <input type="radio"
+                name="estado" value="solteiro"/>Solteiro<br/>
+                <input type="radio"
+                name="estado" value="casado"/>Casado<br/>
+                <input type="radio"
+                name="estado" value="divorciado"/>Divorciado<br/>
+                <input type="radio"
+                name="estado" value="viúvo"/>Viúvo<br/>
+            </p>
+
+       <p>
+
+        Estado Civil
+        <select multiple name="estadoCivil"><!--Multiple vira uma caixinha,
+         sem fica em linha para selecionar-->
+        <option value="solteiro">Solteiro</option>
+        <option value="casado">Casado</option>
+        <option value="divorciado">Divorciado</option>
+        <option value="viúvo">Viúvo</option>
+    </select>
+</p>
+        
+           <input type="checkbox"
+            name="aceite" size="25"/>Ativar
+             Proteção de Senha
+<br>
+             <p>
+        <textarea name="mensagem" rows="4" cols="20">Digite a sua mensagem aqui.</textarea>
+                <input type="submit" value="Enviar"/>
+                <input type="reset" value="Cancelar"/>
+             </p>
+    </form>
+   </body>
+   <!--Action - endereço de URL
+       Method - remessas ifos site-->
+       <!--<a href="index.html">Home</a>-->
