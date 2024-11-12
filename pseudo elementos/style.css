@@ -15,7 +15,7 @@ h1::after{/*depois de algo o simbolo aparecera*/
         content: "💡 ";
 }
 
-::first-line{
+::first-line{/*ira alterar o tamanho da letra da primeira linha*/
     font-size: 18px;
 }
 
