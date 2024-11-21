@@ -1,0 +1,175 @@
+/*Para chamar classes usa o . , para id usa a #*/
+
+/*Estrutura*/
+body{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+p{
+font-size: 16px;
+margin-bottom: 1.5em;
+line-height: 1.4em;
+text-align: justify;
+}
+#conteudo-principal h1{
+    font-size: 36px;
+    margin-bottom: 0.5em;
+}
+#conteudo-principal h2,
+#conteudo-secundario h1 {
+    font-size: 24px;
+    margin-bottom: 0.5em;
+}
+#conteudo-secundario p{
+    font-size:14px;
+}
+#conteudo-principal ul,
+#conteudo-principal ol{
+ font-size: 16px;
+ margin-left: 1.5em;
+ margin-bottom: 1.5em;
+}
+
+/*Menu*/
+#menu-principal{
+    position:absolute;
+    top: -26px;
+    right: 30px;
+}
+#menu-principal a{
+    display: block;
+    float: left;
+    font-size: 18px;
+    text-decoration: none;
+    color:#333333;
+    margin: 0 46px;
+}
+#menu-principal ul{
+    padding: 0px;
+    margin:0px;
+    background-color: #ededed;
+    list-style: none;
+}
+#menu-principal ul li{
+    display:inline;
+}
+#menu-principal ul li a{
+padding: 2px 10px;
+display: inline-block;
+
+/*visual do link*/
+background-color: #ededed;
+color: #333;
+text-decoration: none;
+border-bottom: 3px solid #ededed;
+}
+
+/*Hover*/
+#menu-principal a:hover , #menu-principal a.ativo{
+    color: #0f599f;
+}
+#menu-principal a.ativo{
+    font-weight: bold;
+}
+
+/*Cabeçalho*/
+#cabecalho, #conteudo{
+    width: 1100px;
+    margin: 0 auto;
+}
+#rodape-fora{
+    background-color: #808080;
+}
+#cabecalho{
+    position:relative;
+}
+
+/*Logo*/
+#logo{
+    padding: 10px 0;
+    display: block;
+    float: left;
+}
+#logo img{
+    display: block;
+}
+
+/*Classes de Uso Geral*/
+ .grupo::before, .grupo::after{
+    content: "";
+    display: block;
+}
+ .grupo::after{
+    clear:both;
+}
+
+/*Conteudo*/
+/*Aq é a classe="conteudo"*/.conteudo{
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20;
+    border:#333333 solid 1px
+}
+/*Aq é o id="conteudo"*/#conteudo{
+    margin: 30px auto;
+}
+#conteudo-principal{
+    float:left;
+    width: 530px;
+}
+#conteudo-secundario{
+    float: right;
+    width: 280px;
+}
+#bd-home #conteudo-secundario{
+    padding: 4px ;
+    margin: 30px;
+    border: rgb(239, 19, 184) solid 1px;
+    background-color: pink;
+    color: black;
+}
+ 
+/*RodaPé*/
+.infos{
+ display :inline;
+ padding: 20px;
+}
+#rodape-fora{
+ background-color: #808080;
+ bottom:40px;
+ height: 80px;
+ position: absolute;
+}
+#rodape{
+ background-color:#333;
+ height: 100px;
+ width: 1870px;
+ text-align:left;
+}
+#telefone-email{
+    float: left;
+    font-size: 16px;
+    color: #FFF;
+    margin: 12px 0;
+}
+#telefone-email span.ddd{
+    font-size: 0.8em;
+}
+#endereco{
+    float: right;
+    text-align: right;
+    color: #FFF;
+    font-size: 14px;
+    margin: 12px 0;
+}
+#copyright{
+    font-size: 11px;
+    color: #d9d9d9;
+    /*clear: both;*/
+    display: block;
+    padding: 1em 0;
+}
+/*---Padrõeos e Reset*/
+/* {margin: 0;  padding: 0;}
+ul {list-style-type: none;}
+img, fieldset {border: 0;}
+h1,h2,h3,h4,h5,h6 {font-weight: normal;}*/
