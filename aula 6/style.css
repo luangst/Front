@@ -1,0 +1,41 @@
+div.margem{
+    background-color: rgb(135, 4, 4);
+    color:#FFF;
+    margin:50px 10px 50px 10px;
+}
+
+div.borda{
+    background-color: rgba(35, 25, 237, 0.911);
+    color:rgba(255, 255, 0, 0.88);
+    margin:50px 10px 50px 10px;}
+
+div.margem2{
+    background-color: pink;
+    color:brown;
+    margin:50px 10px 50px 10px;
+}
+/*p.border{
+    border-top-width: 3px;
+    border-top-style: solid;
+    border-top-color: #000
+}*/
+/*Shorthand =*/ p.border{ border-top: 3px solid #de2ca5 }
+
+
+
+/*Exemplo das bordas*/
+div.bordathin{
+    border: thin solid blue;
+    /*padding: 10px;*/
+    margin-bottom: 20px;
+}
+div.bordamedium{ 
+    border:medium solid blue;
+    /*padding:10px;*/
+    margin-bottom: 20px;
+}
+div.bordathick{
+    border: thick solid blue;
+    /*padding: 10px;*/
+    margin-bottom: 20px;
+}
