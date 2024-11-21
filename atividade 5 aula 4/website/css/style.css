@@ -1,0 +1,62 @@
+/*Meu primeiro website com estilo*/
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#cabecalho{
+    background-color: orange;
+    font-size: large;
+}
+
+#conteudo{
+    background-color: rgb(188, 209, 209);
+    font-size:medium;
+    /*color:red;*/
+}
+
+#rodape{
+    background-color: aliceblue;
+    color:rgb(165, 42, 42);
+    font-size: small;
+}
+
+.destaque {
+    background-color: white;
+    border:10px;
+    border-style: double;
+}
+
+p.destaque{
+    background-color: blue;
+}
+
+div#cabecalho h1{
+    background-color: blueviolet;
+    border-style: dotted;
+}
+/*
+#conteudo ul li a{
+color: orange;
+}*/
+
+a:link{/*link ainda nao visitado*/
+    color: blue;
+}
+
+a:visited{/*link ja visistado*/
+    color:blueviolet
+}
+
+a:hover{/*Altera pelo cursor do mouse*/
+    color:yellow;
+}
+
+a:focus{/*link apertar na pagina e tab*/
+   color:green
+}
+
+a:active{/*Altera cor quando for clicado*/
+    color: red;
+}   
+
+
