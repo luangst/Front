@@ -1,0 +1,14 @@
+.campo{
+    margin-bottom: 1em;
+}
+
+.campo label {
+    margin-bottom: 0.2em;
+    color:black;
+    display:block;
+}
+
+fieldset.grupo .campo{
+    float: left;
+    margin-right: 1em;
+}
