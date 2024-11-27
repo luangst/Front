@@ -24,7 +24,7 @@ execute(sayHello); //NÃO ESTA FUNCIONANDO
 }*/
 
 
-function createList(){
+/*function createList(){
 let body= document.querySelector("body");
 console.log(body);
 
@@ -41,4 +41,22 @@ newUl.appendChild(newLi);
 
 newDiv.appendChild(newUl)
 body.appendChild(newDiv);
+}*/
+
+
+function createLi(){
+    let lis= document.getElementsByTagName('li');
+
+    if(lis.length == 0){
+        let body = document.querySelector("body")
+
+        let newDiv = document.createElement('div')
+        newDiv.style.backgroundcolor="123123" 
+
+        newDiv.appendChield(newUl);
+        body.appendChield(newDiv)
+    }
+
+    let li= document.createElement('li')
+    newUl.appendChield(li)
 }
