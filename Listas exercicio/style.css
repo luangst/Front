@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: pink;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .listaFilme {
+    text-align: center;
+    width: 300px;
+  }
+  .listaSerie {
+    text-align: center;
+    width: 300px;
+  }
+  .listaAnime {
+    text-align: center;
+    width: 300px;
+  }
+
+  h1 {
+    color: #333;
+  }
+  
+  .form {
+    margin-bottom: 20px;
+  }
+  
+  #itemInputFilme {
+    padding: 10px;
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  #itemInputSerie {
+    padding: 10px;
+    width: 70%;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+  }
+  #itemInputAnime {
+    padding: 10px;
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #addItemFilme {
+    padding: 10px 15px;
+    background-color: rgb(210, 88, 108);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  #addItemSerie {
+    padding: 10px 15px;
+    background-color: rgb(210, 88, 108);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  #addItemAnime {
+    padding: 10px 15px;
+    background-color: rgb(210, 88, 108);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #addItemFilme:hover {
+    background-color: rgba(255, 0, 0, 0.524);
+  }
+  #addItemSerie:hover {
+    background-color: rgba(255, 0, 0, 0.524);
+  }
+  #addItemAnime:hover {
+    background-color: rgba(255, 0, 0, 0.524);
+  }
+
+
+  /*Botao de remover acho*/
+  #itemList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #itemList li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  #itemListFilme li button {
+    background-color: #c82333;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  #itemListSerie li button {
+    background-color: #c82333;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  #itemListAnime li button {
+    background-color: #c82333;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  #itemListFilme li button:hover {
+    background-color: red;
+  }
+  #itemListSerie li button:hover {
+    background-color: red;
+  }
+  #itemListAnime li button:hover {
+    background-color: red;
+  }
