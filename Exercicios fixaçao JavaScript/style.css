@@ -1,0 +1,234 @@
+/* 3
+body {
+    font-family: Arial, sans-serif;
+    background-color: pink;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+    width: 500px;
+  }
+  
+  h1 {
+    color: rgba(142, 21, 142, 0.881);
+  }
+  
+  .form {
+    margin-bottom: 20px;
+  }
+  
+  #itemInput {
+    padding: 10px;
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #addItem {
+    padding: 10px 15px;
+    background-color: #20bb44dc;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #addItem:hover {
+    background-color: #16b538dc;
+  }
+  
+  #itemList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #itemList li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  #itemList li button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #itemList li button:hover {
+    background-color: #c82333;
+  }*/
+  
+/* 6
+//Estilos para o tema claro 
+.claro {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.claro button {
+  background-color: #3f94d1bd;
+  color: white;
+}
+
+.claro h1, .claro p {
+  color: #333;
+}
+
+//Estilos para o tema escuro 
+.escuro {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.escuro button {
+  background-color: #3f94d1bd;
+  color: white;
+} 
+
+.escuro h1, .escuro p {
+  color: #ddd;
+}*/
+
+/* 7
+body {
+  font-family: Arial, sans-serif;
+  background-color: whitesmoke;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content:center;
+  align-items: flex-start;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  width: 500px;
+}
+
+h1 {
+  color: black;
+}
+
+.form {
+  margin-bottom: 20px;
+}
+
+#itemInput {
+  padding: 20px;
+  width: 70%;
+  border: 1px solid rgba(29, 29, 186, 0.912);
+  border-radius: 4px;
+}
+
+#addItem {
+  padding: 10px 15px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#addItem:hover {
+  background-color:rgb(88, 196, 233);
+}
+
+#itemList {
+  list-style-type: none;
+  padding: 0;
+}
+
+#itemList li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 5px 0;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#itemList li button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#itemList li button:hover {
+  background-color: #c82333;
+}*/
+
+/* 8
+Estilo básico para os elementos 
+p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.div-container {
+  background-color: lightblue;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+/* Esconde as divs inicialmente 
+.hidden {
+  display: none;
+}*/
+
+/* 9
+Estilo do carrossel 
+.carrossel-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 80%;
+  margin: 20px auto;
+}
+
+.carrossel {
+  display: flex;
+  overflow: hidden;
+  width: 600px;  Largura do carrossel 
+}
+
+.carrossel-img {
+  width: 500px;
+  display: none;  
+  transition: transform 0.5s ease;
+}
+
+.btn {
+  background-color: pink;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgb(222, 68, 93);
+}*/
