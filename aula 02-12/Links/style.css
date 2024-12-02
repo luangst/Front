@@ -1,0 +1,17 @@
+/*Body envolve tudo o que aparece visualmente na página (exceto o título e o favicon)*/
+body{
+    background-color: thistle;/*Altera cor de fundo*/
+    color:rgb(83, 140, 142);/*Altera cor da letra*/
+}
+
+a{
+    color:cornflowerblue;/*Altera cor da letra*/
+    text-decoration:wavy;/*text-decoration:none; pra tirar o sublinhado do link*/
+    text-decoration-line:underline;
+}
+
+
+/*os pontos : indicam que o estilo só vai ser aplicado em determinada condição.*/
+a:visited{
+    color:rgb(194, 130, 46);
+}

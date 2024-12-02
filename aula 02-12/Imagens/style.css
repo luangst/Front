@@ -1,0 +1,7 @@
+/* Primeiro digo elemento que sera alterado */
+img {
+/*O que sera alterado no elemento*/
+width: 200px;/* Largura */
+height: 100px;/* Altura */
+
+}
