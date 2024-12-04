@@ -1,0 +1,26 @@
+#titulo-principal{
+    color:rgb(12, 166, 12);
+    text-align: center;
+}
+
+p{
+    background-color: rgba(172, 172, 172, 0.701);
+    text-align: center;
+    margin: 20px auto;
+    /*1Emcima  2Lado direito  3Embaixo  4Lado esquerdo*/
+    padding: 6px;
+    width: 80%;
+    border-radius: 5px;
+}
+
+.item-lista{
+    background-color: red;
+    margin: 4px;
+    padding: 3px;
+}
+
+#item-a{
+    background-color: green;
+    margin: 4px;
+    padding: 3px;
+}

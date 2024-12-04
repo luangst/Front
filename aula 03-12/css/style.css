@@ -1,0 +1,22 @@
+body{
+    background-color: lightgoldenrodyellow;
+    color: chocolate;
+    font-size: 12pt;
+}
+
+h1{
+    color: brown;
+}
+
+button{
+    margin: 10px;/*Fora do elemento*/
+    padding: 10px;/*Dentro do elemento*/
+    border:none;
+    border-radius: 50px;
+}
+
+button:hover{
+    background-color: gray;
+    cursor:pointer;
+}
+

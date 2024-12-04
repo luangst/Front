@@ -1,0 +1,29 @@
+body{
+    font: normal 1em Arial;
+}
+
+h1{
+    font-size: 2em;
+    color: darkgreen;
+}
+
+h2{
+    color: green;
+}
+
+h3{
+    color: green;
+}
+
+#titulo-principal{
+    color: white;
+    background-color: darkgreen;
+}
+
+.topico{
+    text-align: right;
+}
+
+.texto{
+    text-align: justify;
+}

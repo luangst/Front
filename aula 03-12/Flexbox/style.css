@@ -1,0 +1,39 @@
+#container-pai{
+    margin: 0;
+    padding: 10px;
+    background-color: rgb(175, 167, 167);
+    text-align: center;
+    display: flex;
+    flex-direction: row;/*Controla a direçao do eixo principal,ou seja,direçao na qual os filhos do container pai serão dispostos*/
+    justify-content:center;/*controla como eles ficarão dispostos,espaçamento,centralizaçao,etc*/
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    height: 300px;
+}
+
+ /* .container-filho{
+    padding: 100px;  Nao esta alterando esta classe
+}  */
+
+#filho-1{
+    background-color: tomato;
+    padding: 20px;
+    flex-grow: 0;
+    order: 3;
+}
+
+#filho-2{
+    background-color:thistle;
+    padding: 20px;    
+    flex-grow: 0;/*Qanto um item pode crescer quanto aos outros*/
+    align-self:auto;/*Para alinha um item de forma independente*/
+    order: 1;
+}
+
+#filho-3{
+    background-color:teal;
+    padding: 20px;
+    flex-grow: 0;
+    order: 2;
+}
