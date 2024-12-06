@@ -1,0 +1,17 @@
+body{
+    background-color: thistle;
+    color: black;
+}
+
+h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+button{
+    background-color: violet;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    font-weight: bold;
+}
