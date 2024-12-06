@@ -1,0 +1,12 @@
+.form-container{
+    display: flex;
+    background-color: steelblue;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+
+button{
+    background-color:rgb(60, 92, 151);
+    border-radius: 10px;
+}

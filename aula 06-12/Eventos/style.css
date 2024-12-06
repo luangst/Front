@@ -1,0 +1,13 @@
+body{
+    background-color:teal;
+    color: black;
+}
+button{
+    color: black;
+    background-color: thistle;
+    border-radius: 20px;
+    padding: 10px;
+    border: 2px solid rgb(64, 192, 192);
+}
+
+
