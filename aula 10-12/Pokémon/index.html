@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon (API)</title>
+    <!--Links-->
+    <link rel="shortcut icon" href="favicon/favicon-16x16.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+<main>
+    <!--Imagens do pokémon exibido-->
+    <img src="#" alt="pokemon" class="imagem_pokemon">
+
+    <!--Exibiçao do numero e nome de pokémon-->
+    <h1 class="dados_pokemon">
+        <span class="numero_pokemon"></span> -
+        <span class="nome_pokemon"></span>
+    </h1>
+
+    <!--Formulario de busca para procurar um pokémon por nome ou numero-->
+     <form class="formulario">
+        <input
+         type="search"
+         class="campo_busca"
+         placeholder="Nome ou Número"
+         required
+         />
+     </form>
+
+     <!--Botoes para navegar entre os pokémons-->
+     <div class="botoes">
+        <button class="botao botao_anterior">Anterior &lt;</button>
+        <button class="botao botao_proximo">Próximo &gt;</button>
+     </div>
+
+
+     <!--Imagem pokedex-->
+     <img src="imagens/pokedex.png" alt="pokedex" class="pokedex">
+</main>
+
+
+<script src="js/logica.js"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+.cep-container{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    background-color: rgb(149, 208, 208);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    }
+
+.button{
+    background-color: thistle;
+    border-radius: 5px;
+    border: 1px solid black;
+    height: 30px;
+    width: 80px;
+}
+
+h1{
+    text-align: center;
+    background-color: rgba(181, 95, 181, 0.814);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+#cep{
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
+    border: 1px solid ;
+}
+
+body{
+    background-color: rgba(216, 191, 216, 0.478);
+}
