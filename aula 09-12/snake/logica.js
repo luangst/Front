@@ -1,5 +1,5 @@
 //seleciona o canvas pelo id e armazena na variável canvas
-const canvas= document.getElementById("gamesCanvas");
+const canvas= document.getElementById("gameCanvas");
 
 //Obtém o contexto 2D do canvas, que permite desenhar nele
 const ctx= canvas.getContext("2D");
